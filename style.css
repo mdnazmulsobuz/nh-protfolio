@@ -1,0 +1,19 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size:  55px;
+}
+.name{
+    color: #F88366;
+}
+section{
+    display: flex;
+}
+.left-area{
+    width: 50%;
+    padding-left: 10%;
+}
+.right-area img{
+    width: 80%;
+}
