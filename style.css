@@ -8,18 +8,23 @@ h1{
 .name{
     color: #F88366;
 }
-section{
+.flexible-container{
     display: flex;
-    margin-bottom: 150px;
+}
+section{
+   margin-bottom: 150px;
 }
 .left-area{
     width: 50%;
     padding-right: 2%;
 }
+.right-area{
+    width: 50%;
+}
 .top-area .left-area{
     padding-left: 10%;
 }
-p{
+ p{
     margin-bottom: 40px;
     line-height: 25px;
 }
@@ -58,4 +63,34 @@ p{
 }
 .dream-area .right-area{
     padding-right: 10%;
+}
+.expirence{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.expirence .left-area{
+    padding-left: 10%;
+}
+
+.box-1, .box-2{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.box-1{
+    border-image: linear-gradient(-45deg, lightsalmon, tomato);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}.box-2{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+footer p{
+    padding-top: 40px;
+    text-align: center;
+    border-top: 2px solid #ecf0f1;
 }
