@@ -10,13 +10,16 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .left-area{
     width: 50%;
-    padding-left: 10%;
     padding-right: 2%;
 }
-.left-area p{
+.top-area .left-area{
+    padding-left: 10%;
+}
+p{
     margin-bottom: 40px;
     line-height: 25px;
 }
@@ -40,4 +43,19 @@ section{
 .top-area{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.left-area img{
+   height: 75%;
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-area .left-area{
+    padding-left: 10%;
+}
+.dream-area .right-area{
+    padding-right: 10%;
 }
